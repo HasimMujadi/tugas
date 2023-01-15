@@ -51,7 +51,7 @@ body {
 }
 .feature-2 {
   grid-area: feature-2;
-  background-image: url(ikan bakar.jpg);
+  background-image: url(ikan-bakar.jpg);
   background-size: cover;
 }
 .featur-price {
