@@ -95,7 +95,7 @@ body {
   height: 20px;
 /* background-color: black; */
  position: relative;
- z-index: 999;
+ z-index: 5;
 }
 .menu-toggle span {
   display: block;
