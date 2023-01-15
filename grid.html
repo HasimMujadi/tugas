@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TOKO MAKANAN</title>
+    <link rel="stylesheet" href="stylegrid.css">
+  </head>
+    <body>
+      <div class="container">
+        <header class="header">
+          <div class="hero">
+            <h2 class="heading">Hasim Resto</h2>
+            <p class="sub-heading">Menyajikan Makanan Tradisional Khas Indonesia</p>
+          </div>
+          <div class="features feature-1">
+            <h4 class="price">IDR 20K</h4>
+            <p class="item">Sate Ayam</p>
+          </div>
+          <div class="features feature-2">
+            <h4 class="price">IDR 25K</h4>  
+            <p class="item">Ikan Bakar</p>            
+          </div>
+        </header>
+        <nav class="menu">
+          <div class="menu-toggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="brand">
+            <h1>NOT NULL</h1>
+          </div>
+          <ul class="menu-list">
+            <li><a href="">Home</a></li>
+            <li><a href="">Produk</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Gallery</a></li>
+          </ul>
+        </nav>
+        <selection class="services">
+          <div class="service">
+            <div class="icon">☕</div>
+            <h3>Coffee</h3>
+            <p>hdidbd disbs dis shs sus si dis sjs sis sksnwbsjs.</p>
+          </div>
+          <div class="service">
+            <div class="icon">🚬</div>
+            <h3>Smoking</h3>
+            <p>hdidbd disbs dis shs sus si dis sjs sis sksnwbsjs.</p>
+          </div>
+          <div class="service">
+            <div class="icon">🍜</div>
+            <h3>Mie</h3>
+            <p>hdidbd disbs dis shs sus si dis sjs sis sksnwbsjs.</p>
+          </div>
+          <div class="service">
+            <div class="icon">🥱</div>
+            <h3>Sleep</h3>
+            <p>hdidbd disbs dis shs sus si dis sjs sis sksnwbsjs.</p>
+          </div>
+        </selection>
+        <section class="Gallery">
+          <h2>Gallery</h2>
+          <img src="img1.jpg">
+          <img src="img2.jpg">
+          <img src="img3.jpg">
+          <img src="img4.jpg">
+          <img src="img5.jpg">
+          <img src="img6.jpg">
+          <img src="img7.jpg">
+          <img src="img8.jpg">
+        </section>
+      </div>
+      <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = nav = document.querySelector('nav ul');
+        
+        menuToggle.addEventListener('click', function () {
+          nav.classList.toggle('slide')
+        } );
+      </script>
+    </body>
+</html>
