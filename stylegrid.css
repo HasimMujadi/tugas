@@ -46,12 +46,12 @@ body {
 }
 .feature-1 {
   grid-area: feature-1;
-  background-image: url('/sate.jpg');
+  background-image: url(sate.jpg);
   background-size: cover;
 }
 .feature-2 {
   grid-area: feature-2;
-  background-image: url('/ikan bakar.jpg');
+  background-image: url(ikan bakar.jpg);
   background-size: cover;
 }
 .featur-price {
